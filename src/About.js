@@ -4,7 +4,6 @@ import style from "./about.module.css";
 const About = () => {
   return (
     <div className={style.container}>
-      <section className={style.card}>
         <h1 className={style.title}>About Me</h1>
         <p className={style.content}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -15,7 +14,6 @@ const About = () => {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-      </section>
     </div>
   );
 };
