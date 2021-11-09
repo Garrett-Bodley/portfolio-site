@@ -1,0 +1,24 @@
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.dotsItem {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  border: 1px solid rgb(255, 255, 255);
+  margin: 0 4px;
+}
+
+.active {
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+
+.inactive {
+  background-color: transparent;
+}
