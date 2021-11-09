@@ -8,6 +8,7 @@
   flex-direction: column;
   padding: 1rem;
   position: relative;
+  scroll-snap-align: start;
 }
 
 .landingPage > * {
