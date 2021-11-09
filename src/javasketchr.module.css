@@ -1,0 +1,14 @@
+.container {
+  scroll-snap-align: start;
+  min-height: 100vh;
+  width: 100%;
+  padding: 2rem;
+  line-height: 1.5;
+}
+
+.title {
+  font-family: 'VT323', monospace;
+  font-size: 3.5rem;
+  margin: 1rem 0;
+  width: 100%;
+}
