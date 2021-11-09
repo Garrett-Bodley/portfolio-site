@@ -7,8 +7,6 @@ const LandingPage = () => {
     <div className={styles.landingPage}>
       <h1 className={styles.title}>Garrett Bodley</h1>
       <p className={styles.tagline}>a nyc based web developer</p>
-      {/* <p className={styles.tagline}>Problem Solver</p> */}
-      {/* <Divider/> */}
       <Down className={styles.icon} />
     </div>
   );
