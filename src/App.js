@@ -2,10 +2,11 @@ import "./App.css";
 import React from "react";
 import LandingPage from "./LandingPage";
 import About from "./About";
-import Portfolio from "./Portfolio";
+import Hero from "./Hero";
 import Noodlr from "./Noodlr";
 import Breadbook from "./Breadbook";
 import { useScrollPosition } from "./utilities/useScrollPosition"
+import Javasketchr from "./Javasketchr";
 
 function App() {
 
@@ -14,9 +15,11 @@ function App() {
     <div className="App">
       <LandingPage />
       <About />
-      <Portfolio />
+      <Hero text="Portfolio"/>
       <Noodlr />
       <Breadbook />
+      <Javasketchr/>
+      <Hero text="Blog"/>
     </div>
   );
 }
