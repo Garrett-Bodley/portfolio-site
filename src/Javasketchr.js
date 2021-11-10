@@ -1,10 +1,11 @@
 import React from "react";
 import style from "./javasketchr.module.css";
+import Drawing from "./icons/Drawing";
 
 const Javasketchr = () => {
   return (
     <div className={style.container}>
-      <h1 className={style.title}>Javasketchr</h1>
+      <h1 className={style.title}>Javasketchr <Drawing className={style.icon}/></h1>
       <p className={style.description}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
