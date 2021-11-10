@@ -19,9 +19,13 @@
   background-color: #BFC5BA;
   isolation: isolate;
   display: flex;
-  padding: 0 1rem;
   justify-content: space-between;
   align-items: center;
+  overflow: hidden;
+}
+
+.front a {
+  padding: 1em;
 }
 
 .menuIcon {
