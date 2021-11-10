@@ -5,14 +5,16 @@ import About from "./About";
 import Hero from "./Hero";
 import Noodlr from "./Noodlr";
 import Breadbook from "./Breadbook";
-import { useScrollPosition } from "./utilities/useScrollPosition"
+import { usePersistScrollPosition } from "./utilities/usePersistScrollPosition"
 import Javasketchr from "./Javasketchr";
+import  Navbar from "./Navbar"
 
 function App() {
 
-  useScrollPosition('scrollY')
+  usePersistScrollPosition('scrollY')
   return (
     <div className="App">
+      <Navbar/>
       <LandingPage />
       <About />
       <Hero text="Portfolio"/>
