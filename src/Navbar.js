@@ -3,7 +3,8 @@ import style from "./navbar.module.css";
 import { animated, config, useSpring } from "react-spring";
 import Logo from "./icons/Logo";
 import Hamburger from "./icons/Hamburger";
-import { useHideOnScrollDown } from "./utilities/useHideOnScroll";
+import { useHideOnScrollDown } from "./utilities/useHideOnScrollDown";
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
   const isVisible = useHideOnScrollDown();
@@ -26,7 +27,7 @@ const Navbar = () => {
 
   const menuProps = useSpring({
     to: { bottom: menuIsVis ? "-15.5rem" : "0" },
-    config: {...config.gentle, clamp: !menuIsVis},
+    config: config.stiff
   });
 
   return (
@@ -41,11 +42,11 @@ const Navbar = () => {
       </div>
       <animated.div style={menuProps} className={style.menuWrapper}>
         <ul className={style.menuContent}>
-          <li>Home</li>
-          <li>About</li>
-          <li>Portfolio</li>
-          <li>Blog</li>
-          <li>Resume</li>
+          <li><Link activeClass="active" to="home" spy={true} smooth={true} duration={1000}>Home</Link></li>
+          <li><Link activeClass="active" to="about" spy={true} smooth={true} duration={1000}>About</Link></li>
+          <li><Link activeClass="active" to="portfolio" spy={true} smooth={true} duration={1000}>Portfolio</Link></li>
+          <li><Link activeClass="active" to="blog" spy={true} smooth={true} duration={1000}>Blog</Link></li>
+          <li>Contact</li>
           <li>Contact</li>
         </ul>
       </animated.div>
