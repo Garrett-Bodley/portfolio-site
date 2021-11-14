@@ -2,9 +2,9 @@ import React from 'react'
 import style from "./hero.module.css"
 import Down from "./icons/Down"
 
-const Hero = ({text}) => {
+const Hero = ({id, text}) => {
   return (
-    <div className={style.container}>
+    <div id={id} className={style.container}>
       <h1 className={style.title} >{text}</h1>
       <Down className={style.icon} />
     </div>
