@@ -8,6 +8,7 @@ import Breadbook from "./Breadbook";
 import { usePersistScrollPosition } from "./utilities/usePersistScrollPosition"
 import Javasketchr from "./Javasketchr";
 import  Navbar from "./Navbar"
+import Blog from './Blog'
 
 function App() {
 
@@ -17,11 +18,12 @@ function App() {
       <Navbar/>
       <LandingPage />
       <About />
-      <Hero text="Portfolio"/>
+      <Hero id="portfolio" text="Portfolio"/>
       <Noodlr />
       <Breadbook />
       <Javasketchr/>
-      <Hero text="Blog"/>
+      <Hero id="blog" text="Blog"/>
+      <Blog/>
     </div>
   );
 }
