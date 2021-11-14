@@ -4,7 +4,7 @@ import Down from "./icons/Down"
 
 const LandingPage = () => {
   return (
-    <div className={styles.landingPage}>
+    <div id="home" className={styles.landingPage}>
       <h1 className={styles.title}>Garrett Bodley</h1>
       <p className={styles.tagline}>a nyc based web developer</p>
       <Down className={styles.icon} />

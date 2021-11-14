@@ -31,7 +31,7 @@
 
 .icon {
   position: absolute;
-  fill: rgba(0, 0, 0, 0.3);
+  fill: rgba(0, 0, 0, .5);
   bottom: 0;
   width: 2rem;
   margin-bottom: .25rem;
