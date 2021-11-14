@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./about.module.css";
 import Bio from './icons/Bio'
+import Skills from "./Skills";
 
 const About = () => {
   return (
@@ -15,6 +16,7 @@ const About = () => {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
+        <Skills/>
     </div>
   );
 };
