@@ -4,7 +4,7 @@ import Down from './icons/Down'
 
 const Portfolio = () => {
   return (
-    <div className={style.container}>
+    <div id="portfolio" className={style.container}>
       <h1 className={style.title} >Projects</h1>
       <Down className={style.icon} />
     </div>

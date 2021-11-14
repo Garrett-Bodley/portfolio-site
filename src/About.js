@@ -1,10 +1,11 @@
 import React from "react";
 import style from "./about.module.css";
+import Bio from './icons/Bio'
 
 const About = () => {
   return (
-    <div className={style.container}>
-        <h1 className={style.title}>About Me</h1>
+    <div id="about" className={style.container}>
+        <h1 className={style.title}>About Me <Bio className={style.icon} /></h1>
         <p className={style.content}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
