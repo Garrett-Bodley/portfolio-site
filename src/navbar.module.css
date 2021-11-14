@@ -59,6 +59,16 @@
   border-bottom: 1px solid #8b9782;
   font-family: 'VT323', monospace;
   font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.menuContent li a {
+  text-decoration: none;
+  color: inherit
+}
+
+.active {
+  color: white
 }
 
 .menuContent li:last-child {
