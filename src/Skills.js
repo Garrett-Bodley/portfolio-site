@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './skills.module.css'
-import { Css, Git, Html, Postgres, Rails, ReactIcon, Redux, Ruby, Sqlite} from "./icons/SkillsIcons"
+import { Css, Git, HerokuIcon, Html, Postgres, Rails, ReactIcon, Redux, Ruby, Sqlite} from "./icons/SkillsIcons"
 
 const Skills = () => {
   return (
@@ -9,10 +9,11 @@ const Skills = () => {
         <Css className={styles.icon} />
         <Git className={styles.icon} />
         <Html className={styles.icon} />
+        <HerokuIcon className={styles.icon} />
         <Postgres className={styles.icon} />
-        <Sqlite className={styles.icon} />
       </div>
       <div className={styles.iconWrapper}>
+        <Sqlite className={styles.icon} />
         <Rails  className={styles.icon} />
         <Ruby className={styles.icon} />
         <ReactIcon className={styles.icon} />
