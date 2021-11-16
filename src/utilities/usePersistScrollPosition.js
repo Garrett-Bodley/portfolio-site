@@ -6,6 +6,7 @@ export const usePersistScrollPosition = (key) => {
   useEffect(() => {
     window.scrollTo(0, position);
     return () => {setPosition(window.scrollY)}
+    // eslint-disable-next-line
   }, [])
   return position
 }
