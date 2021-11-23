@@ -1,19 +1,16 @@
 import React from "react";
-import style from "./breadbook.module.css";
+import styles from "./breadbook.module.css";
 import Baking from "./icons/Baking"
 
 const Breadbook = () => {
   return (
-    <div className={style.container}>
-      <h1 className={style.title}>Breadbook <Baking className={style.icon} /> </h1>
-      <p className={style.description}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+    <div className={styles.container}>
+      <h1 className={styles.title}>Breadbook <Baking className={styles.icon} /> </h1>
+      <p className={styles.content}>
+        While making sourdough, like any process utilizing fermentation, there exists natural variation due to temperature, humidity, starter strength, etc. Breadbook is an online utility that helps users log actions throughout the process, tracking the time, what was done, and leaving space for any additional notes.
+      </p>
+      <p className={styles.content}>
+        It incorporates social media functionality, allowing users to browse the recipes and ingredients of other users (ranked by usage or popularity if desired). Users may comment on, like, and bookmark various recipes as well.
       </p>
     </div>
   );
