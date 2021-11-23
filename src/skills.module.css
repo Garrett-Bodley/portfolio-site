@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   width: 100%;
   margin: 2rem 0 5rem 0;
+  padding: 0 1rem;
 }
 
 .iconWrapper {
@@ -13,5 +14,5 @@
 }
 
 .icon {
-  width: 3rem;
+  width: 2.5rem;
 }
