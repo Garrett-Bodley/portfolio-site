@@ -4,7 +4,7 @@
   width: 100%;
   padding: 2rem;
   line-height: 1.5;
-  padding-top: 4rem;
+  position:relative;
 }
 
 .title {
@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   font-family: 'VT323', monospace;
-  font-size: 3rem;
+  font-size: 15vw;
   margin: 1rem 0;
   width: 100%;
 }
@@ -25,5 +25,12 @@
 
 .icon {
   width: 3rem;
-  transform: translateX(5px);
+  transform: translate(5px, .5rem);
+}
+
+.links {
+  position: absolute;
+  bottom: 2rem;
+  left:0;
+  width: 100%
 }

@@ -26,7 +26,7 @@ const Navbar = () => {
   });
 
   const menuProps = useSpring({
-    to: { bottom: menuIsVis ? "-15.5rem" : "0" },
+    to: { bottom: menuIsVis ? "-13rem" : "0" },
     config: config.stiff
   });
 
@@ -42,12 +42,11 @@ const Navbar = () => {
       </div>
       <animated.div style={menuProps} className={style.menuWrapper}>
         <ul className={style.menuContent}>
-          <li><Link activeClass="active" to="home" spy={true} smooth={true} duration={1000}>Home</Link></li>
-          <li><Link activeClass="active" to="about" spy={true} smooth={true} duration={1000}>About</Link></li>
-          <li><Link activeClass="active" to="portfolio" spy={true} smooth={true} duration={1000}>Portfolio</Link></li>
-          <li><Link activeClass="active" to="blog" spy={true} smooth={true} duration={1000}>Blog</Link></li>
-          <li>Contact</li>
-          <li>Contact</li>
+          <Link activeClass="active" to="home" spy={true} smooth={true} duration={500}>Home</Link>
+          <Link activeClass="active" to="about" spy={true} smooth={true} duration={500}>About</Link>
+          <Link activeClass="active" to="portfolio" spy={true} smooth={true} duration={500}>Portfolio</Link>
+          <Link activeClass="active" to="blog" spy={true} smooth={true} duration={500}>Blog</Link>
+          <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500}>Links</Link>
         </ul>
       </animated.div>
     </animated.header>

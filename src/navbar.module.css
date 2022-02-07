@@ -52,14 +52,18 @@
   text-align: center;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-.menuContent li {
+.menuContent a {
   padding: .5rem;
   border-bottom: 1px solid #8b9782;
   font-family: 'VT323', monospace;
   font-size: 1.5rem;
   cursor: pointer;
+  text-decoration: none;
+  color: inherit
 }
 
 .menuContent li a {
@@ -71,6 +75,6 @@
   color: white
 }
 
-.menuContent li:last-child {
+.menuContent a:last-child {
   border-bottom: none;
 }

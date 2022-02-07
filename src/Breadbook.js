@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./breadbook.module.css";
 import Baking from "./icons/Baking"
+import ProjectLinks from "./ProjectLinks";
 
 const Breadbook = () => {
   return (
@@ -12,6 +13,7 @@ const Breadbook = () => {
       <p className={styles.content}>
         It incorporates social media functionality, allowing users to browse the recipes and ingredients of other users (ranked by usage or popularity if desired). Users may comment on, like, and bookmark various recipes as well.
       </p>
+      <ProjectLinks className={styles.links} demo="https://breadbook.herokuapp.com/" repo="https://github.com/Garrett-Bodley/BreadBook" />
     </div>
   );
 };
